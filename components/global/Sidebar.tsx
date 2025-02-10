@@ -94,7 +94,7 @@ const Sidebar: React.FC = () => {
         })}
       </div>
 
-      <footer className="flex flex-col items-center justify-center pb-12">
+      <footer className="flex flex-col  pb-12">
         <div className="flex flex-row flex-wrap items-center p-2">
           {FOOTER_LINKS.map((link, index) => {
             return (
@@ -109,10 +109,7 @@ const Sidebar: React.FC = () => {
           })}
         </div>
 
-        <Link
-          href="#"
-          className="items-center text-colorSecondary text-xs pb-4"
-        >
+        <Link href="#" className="text-left text-colorSecondary text-xs p-4">
           &copy; 2025 Google LLC
         </Link>
       </footer>
