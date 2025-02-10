@@ -1,0 +1,23 @@
+
+export const CATEGORY_TAGS: string[] = [
+    "All",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+    "Item",
+];
