@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CgMenuGridR } from "react-icons/cg";
 import { BiBell, BiMenu, BiVideoPlus } from "react-icons/bi";
-import Searchbar from "../ui/searchbar";
+import Searchbar from "../ui/searchInput";
 
 const Navbar: React.FC = () => {
   return (

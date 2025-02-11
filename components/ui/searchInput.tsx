@@ -7,7 +7,7 @@ const Searchbar: React.FC = () => {
       <input
         type="text"
         placeholder="Search"
-        className="w-1/2 bg-black px-2 py-1 text-colorPrimary border-none focus:outline-backgroundAccent"
+        className="min-w-[30%] bg-black px-2 py-1 text-colorPrimary border-none focus:outline-backgroundAccent"
       />
       <div className="w-14 bg-backgroundAccent flex justify-center items-center border-backgroundSecondary">
         <BiSearch className="text-colorPrimary w-5 h-5 cursor-pointer" />
