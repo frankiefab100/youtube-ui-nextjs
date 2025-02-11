@@ -1,4 +1,4 @@
-import { ExtraProps, MoreYoutubeProps, SidebarProps, SubProps } from "@/types/types";
+import { IExtraLink, IMoreYoutube, ISidebar, ISubscription } from "@/types/index";
 import { BiHome, BiLike, BiMessageError } from "react-icons/bi";
 import { FaCompass, FaYoutube } from "react-icons/fa6";
 import { FiSettings } from "react-icons/fi";
@@ -8,7 +8,7 @@ import { MdOutlinedFlag, MdOutlineHistory, MdOutlineSubscriptions, MdOutlineVide
 import { RiArrowDownSLine, RiVideoLine } from "react-icons/ri";
 import { SiYoutubegaming } from "react-icons/si";
 
-export const SIDENAV_LIST: SidebarProps[] = [
+export const SIDEBAR_NAV: ISidebar[] = [
     {
         id: 1,
         icon: BiHome,
@@ -57,7 +57,7 @@ export const SIDENAV_LIST: SidebarProps[] = [
 ];
 
 
-export const SUBSCRIPTIONS_LIST: SubProps[] = [
+export const SUBSCRIPTIONS_LIST: ISubscription[] = [
     {
         id: 1,
         image: "https://mighty.tools/mockmind-api/content/human/104.jpg",
@@ -95,7 +95,7 @@ export const SUBSCRIPTIONS_LIST: SubProps[] = [
     },
 ]
 
-export const MORE_YOUTUBE: MoreYoutubeProps[] = [
+export const MORE_YOUTUBE: IMoreYoutube[] = [
     {
         id: 1,
         icon: FaYoutube,
@@ -114,7 +114,7 @@ export const MORE_YOUTUBE: MoreYoutubeProps[] = [
 ]
 
 
-export const EXTRA_LINKS: ExtraProps[] = [
+export const EXTRA_LINKS: IExtraLink[] = [
     {
         id: 1,
         icon: FiSettings,

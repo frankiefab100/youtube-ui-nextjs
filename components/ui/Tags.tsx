@@ -5,7 +5,7 @@ export const Tags: React.FC = () => {
   return (
     <div
       id="tags"
-      className="bg-backgroundAccent flex flex-row flex-nowrap justify-evenly items-center px-6 py-3 fixed top-14 right-0 left-[16%] whitespace-nowrap overflow-hidden text-ellipsis"
+      className="bg-backgroundAccent flex flex-row flex-nowrap justify-evenly items-center px-6 py-3 fixed top-14 right-0 left-[16%] whitespace-nowrap overflow-hidden z-10"
     >
       {CATEGORY_TAGS.map((tag, index) => {
         return (

@@ -4,7 +4,7 @@ import {
   EXTRA_LINKS,
   FOOTER_LINKS,
   MORE_YOUTUBE,
-  SIDENAV_LIST,
+  SIDEBAR_NAV,
   SUBSCRIPTIONS_LIST,
 } from "@/constants/sidebar";
 import Image from "next/image";
@@ -15,7 +15,7 @@ const Sidebar: React.FC = () => {
   return (
     <aside className="bg-backgroundPrimary flex flex-col max-w-[16%] h-full fixed overflow-hidden whitespace-nowrap hover:overflow-y-scroll">
       <div className="py-3 border-b border-backgroundAccent">
-        {SIDENAV_LIST.map((listItem) => {
+        {SIDEBAR_NAV.map((listItem) => {
           return (
             <Link
               key={listItem.id}
