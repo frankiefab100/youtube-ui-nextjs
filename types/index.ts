@@ -11,6 +11,7 @@ export interface ISubscription {
     id: number;
     image: string;
     name: string;
+    link?: string;
 }
 
 export type IMoreYoutube = ISidebar

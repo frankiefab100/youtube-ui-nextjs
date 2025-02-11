@@ -37,7 +37,7 @@ const Sidebar: React.FC = () => {
           return (
             <Link
               key={channel.id}
-              href="#"
+              href={channel?.link as string}
               className="flex items-center text-colorPrimary hover:bg-backgroundAccent text-sm py-2 px-6"
             >
               <Image

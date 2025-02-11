@@ -62,36 +62,43 @@ export const SUBSCRIPTIONS_LIST: ISubscription[] = [
         id: 1,
         image: "https://mighty.tools/mockmind-api/content/human/104.jpg",
         name: "James Gouse",
+        link: "/",
     },
     {
         id: 2,
         image: "https://mighty.tools/mockmind-api/content/human/128.jpg",
         name: "Alan Cooper",
+        link: "/",
     },
     {
         id: 3,
         image: "https://mighty.tools/mockmind-api/content/human/112.jpg",
         name: "Marcus Levin",
+        link: "/channel",
     },
     {
         id: 4,
         image: "https://mighty.tools/mockmind-api/content/human/102.jpg",
         name: "Alexis Sears",
+        link: "/",
     },
     {
         id: 5,
         image: "https://mighty.tools/mockmind-api/content/human/113.jpg",
         name: "Jesica Lambert",
+        link: "/",
     },
     {
         id: 6,
         image: "https://mighty.tools/mockmind-api/content/human/95.jpg",
         name: "Anna White",
+        link: "/",
     },
     {
         id: 7,
         image: "https://mighty.tools/mockmind-api/content/human/106.jpg",
         name: "Skylar Dias",
+        link: "/",
     },
 ]
 
