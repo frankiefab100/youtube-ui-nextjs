@@ -22,7 +22,7 @@ const channelVideo: React.FC = () => {
             Blind Woodturner: Turning passion into fine art
           </h2>
           <p className="text-colorSecondary text-sm my-3">
-            <span>576,969 views. </span>
+            <span>576,969 views</span>
             {" . "}
             <span>3 weeks ago</span>
           </p>
