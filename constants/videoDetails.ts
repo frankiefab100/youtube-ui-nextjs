@@ -16,8 +16,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image1,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
-
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 2,
@@ -26,7 +26,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image2,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 3,
@@ -35,7 +36,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image3,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 4,
@@ -44,7 +46,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image4,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 5,
@@ -53,7 +56,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image5,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 6,
@@ -62,7 +66,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image6,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 7,
@@ -71,7 +76,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image7,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 8,
@@ -80,7 +86,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image8,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 9,
@@ -89,7 +96,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image1,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 10,
@@ -98,7 +106,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image2,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 11,
@@ -107,7 +116,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image3,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 12,
@@ -116,7 +126,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image4,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 13,
@@ -125,7 +136,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image5,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 14,
@@ -134,7 +146,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image6,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 15,
@@ -143,7 +156,8 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image7,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
     {
         id: 16,
@@ -152,6 +166,7 @@ export const VIDEO_DETAILS: VideoProps[] = [
         thumbnail: image8,
         title: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         viewCount: "15k Views",
-        timeline: "1 weeks ago"
+        timeline: "1 weeks ago",
+        duration: "23:45"
     },
 ]

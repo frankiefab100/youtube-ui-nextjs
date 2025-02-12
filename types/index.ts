@@ -26,4 +26,5 @@ export interface VideoProps {
     title: string;
     viewCount: string;
     timeline: string;
+    duration: string;
 }

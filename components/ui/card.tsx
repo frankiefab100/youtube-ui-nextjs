@@ -9,13 +9,18 @@ const Card: React.FC = () => {
       {VIDEO_DETAILS.map((videoItem: VideoProps) => {
         return (
           <div key={videoItem.id} className="flex flex-col">
-            <Image
-              className="block w-full h-full cursor-pointer"
-              src={videoItem.thumbnail}
-              alt="video thumbnail"
-              width={50}
-              height={50}
-            />
+            <div className="relative">
+              <Image
+                className="block w-full h-full cursor-pointer"
+                src={videoItem.thumbnail}
+                alt="video thumbnail"
+                width={50}
+                height={50}
+              />
+              <div className="absolute right-2 bottom-1 bg-backgroundPrimary text-colorPrimary text-sm p-1">
+                {videoItem.duration}
+              </div>
+            </div>
 
             <div className="flex flex-row flex-nowrap justify-start items-start w-full pt-3 cursor-pointer">
               <Image
