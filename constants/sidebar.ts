@@ -2,6 +2,7 @@ import { IExtraLink, IMoreYoutube, ISidebar, ISubscription } from "@/types/index
 import { BiHome, BiLike, BiMessageError } from "react-icons/bi";
 import { FaCompass, FaYoutube } from "react-icons/fa6";
 import { FiSettings } from "react-icons/fi";
+import { GoTrophy } from "react-icons/go";
 import { HiSignal } from "react-icons/hi2";
 import { IoHelpCircleOutline } from "react-icons/io5";
 import { MdOutlinedFlag, MdOutlineHistory, MdOutlineSubscriptions, MdOutlineVideoLibrary, MdOutlineWatchLater } from "react-icons/md";
@@ -118,6 +119,11 @@ export const MORE_YOUTUBE: IMoreYoutube[] = [
         icon: HiSignal,
         name: "Live",
     },
+    {
+        id: 3,
+        icon: GoTrophy,
+        name: "Sports",
+    },
 ]
 
 
@@ -151,5 +157,4 @@ export const FOOTER_LINKS: string[] = [
     "Terms", "Privacy Policy & Safety",
     "How YouTube works",
     "Test new features",
-    "NFL Sunday Ticket"
 ]
