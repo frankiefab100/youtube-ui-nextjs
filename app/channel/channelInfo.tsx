@@ -22,8 +22,8 @@ const ChannelInfo: React.FC = () => {
           className="w-full h-auto"
           src={coverPhoto}
           alt="coverphoto"
-          width={100}
-          height={100}
+          width={300}
+          height={300}
         />
       </div>
 

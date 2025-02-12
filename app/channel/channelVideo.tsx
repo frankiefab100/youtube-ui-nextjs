@@ -1,17 +1,20 @@
 import Image from "next/image";
 import React from "react";
 import currentVideo from "../../assets/images/Youtube-player.png";
+import Link from "next/link";
 
 const channelVideo: React.FC = () => {
   return (
     <div className="grid grid-cols-2 gap-6 px-14 py-6">
-      <Image
-        className="w-full h-auto cursor-pointer"
-        src={currentVideo}
-        alt="current video playing"
-        width={200}
-        height={200}
-      />
+      <Link href="/watch">
+        <Image
+          className="w-full h-auto cursor-pointer"
+          src={currentVideo}
+          alt="current video playing"
+          width={200}
+          height={200}
+        />
+      </Link>
 
       <div className="flex items-start w-full">
         <div>
