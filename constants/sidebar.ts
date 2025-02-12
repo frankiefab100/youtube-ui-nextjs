@@ -120,7 +120,7 @@ export const MORE_YOUTUBE: IMoreYoutube[] = [
         name: "Live",
     },
     {
-        id: 3,
+        id: 4,
         icon: GoTrophy,
         name: "Sports",
     },
