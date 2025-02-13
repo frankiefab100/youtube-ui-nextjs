@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
         className="bg-backgroundPrimary h-14 w-full flex flex-row flex-nowrap justify-between items-center"
       >
         <div className="flex justify-around items-center">
-          <BiMenu className="text-colorPrimary cursor-pointer w-8 h-8 mx-6" />
+          <BiMenu className="text-colorPrimary cursor-pointer lg:w-8 lg:h-8 w-12 h-12 lg:mx-6 ml-4 mr-2" />
           <Link href="/" className="flex items-center">
             <Image
               src="/images/Youtube-Logo.png"
@@ -25,13 +25,13 @@ const Navbar: React.FC = () => {
 
         <Searchbar />
 
-        <div className="flex justify-between items-center mx-6 w-40">
-          <BiVideoPlus className="text-colorPrimary cursor-pointer w-5 h-5" />
-          <CgMenuGridR className="text-colorPrimary cursor-pointer w-5 h-5" />
+        <div className="flex justify-between items-center lg:mx-6 mx-4 lg:w-40 w-20">
+          <BiVideoPlus className="text-colorPrimary cursor-pointer md:w-5 md:h-5 hidden" />
+          <CgMenuGridR className="text-colorPrimary cursor-pointer md:w-5 md:h-5 hidden" />
           <BiBell className="text-colorPrimary cursor-pointer w-5 h-5" />
 
           <Image
-            className="w-8 h-8 rounded-full cursor-pointer"
+            className="lg:w-8 h-5 w-5  rounded-full cursor-pointer"
             src="/images/profile-photo.webp"
             alt="user profile"
             width={10}

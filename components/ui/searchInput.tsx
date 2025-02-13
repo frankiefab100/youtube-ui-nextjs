@@ -7,14 +7,14 @@ const Searchbar: React.FC = () => {
       <input
         type="text"
         placeholder="Search"
-        className="min-w-[30%] bg-black px-2 py-1 text-colorPrimary border-none focus:outline-backgroundAccent"
+        className="min-w-[30%] bg-black lg:px-2 lg:py-1 py-0 px-1 ml-4 md:text-base text-sm text-colorPrimary border-none focus:outline-backgroundAccent"
       />
-      <div className="w-14 bg-backgroundAccent flex justify-center items-center border-backgroundSecondary">
-        <BiSearch className="text-colorPrimary w-5 h-5 cursor-pointer" />
+      <div className="lg:w-14 w-8 bg-backgroundAccent flex justify-center items-center border-backgroundSecondary">
+        <BiSearch className="text-colorPrimary lg:w-5 lg:h-5 w-4 h-4 cursor-pointer" />
       </div>
 
-      <div className="bg-black flex justify-center items-center rounded-full p-2 mx-2">
-        <BiSolidMicrophone className="text-colorPrimary w-5 h-5 cursor-pointer" />
+      <div className="bg-black flex justify-center items-center rounded-full lg:p-2 p-1 mx-2">
+        <BiSolidMicrophone className="text-colorPrimary lg:w-5 lg:h-5 w-4 h-4 cursor-pointer" />
       </div>
     </div>
   );
