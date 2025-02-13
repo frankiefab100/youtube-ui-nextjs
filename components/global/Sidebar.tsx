@@ -13,7 +13,7 @@ import { HiOutlineChevronDown } from "react-icons/hi2";
 
 const Sidebar: React.FC = () => {
   return (
-    <aside className="bg-backgroundPrimary flex flex-col max-w-[16%] h-full fixed overflow-hidden whitespace-nowrap hover:overflow-y-scroll">
+    <aside className="bg-backgroundPrimary flex flex-col max-w-[16%] h-full fixed overflow-hidden whitespace-nowrap scrollbar hover:overflow-y-scroll">
       <div className="py-3 border-b border-backgroundAccent">
         {SIDEBAR_NAV.map((listItem) => {
           return (
