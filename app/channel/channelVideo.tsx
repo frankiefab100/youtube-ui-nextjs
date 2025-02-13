@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const channelVideo: React.FC = () => {
   return (
-    <div className="grid grid-cols-2 gap-6 px-14 py-6">
+    <div className="grid md:grid-cols-2 grid-cols-1 gap-6 lg:px-14 px-4 py-6">
       <Link href="/watch">
         <Image
           className="w-full h-auto cursor-pointer"

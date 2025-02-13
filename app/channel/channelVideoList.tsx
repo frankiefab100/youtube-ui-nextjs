@@ -4,7 +4,7 @@ import { ImPlay3 } from "react-icons/im";
 
 const ChannelVideoList: React.FC = () => {
   return (
-    <div className="bg-backgroundSecondary relative px-14 py-4">
+    <div className="bg-backgroundSecondary relative lg:px-14 px-4 py-4">
       <div className="flex items-center justify-start space-x-3 my-3">
         <h2 className="inline text-colorPrimary text-base font-semibold leading-5">
           Search On &apos;21
@@ -18,7 +18,7 @@ const ChannelVideoList: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-1 pb-6 border-b border-backgroundAccent">
         {slicedVideoDetails.map((videoItem) => {
           return (
-            <div key={videoItem.id} className="flex flex-col">
+            <div key={videoItem.id} className="flex flex-col py-3">
               <div className="relative">
                 <Image
                   className="block w-full h-full cursor-pointer"
