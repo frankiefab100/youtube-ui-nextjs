@@ -18,13 +18,15 @@ export type IMoreYoutube = ISidebar
 
 export type IExtraLink = ISidebar
 
-export interface VideoProps {
+export interface IPlaylist {
     id: number;
-    creatorImg: string;
     creatorName: string;
     thumbnail: StaticImageData;
     title: string;
     viewCount: string;
     timeline: string;
     duration: string;
+}
+export interface VideoProps extends IPlaylist {
+    creatorImg: string;
 }

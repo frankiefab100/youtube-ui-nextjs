@@ -1,7 +1,7 @@
 import React from "react";
 
-const videoCard = () => {
+const VideoCard = () => {
   return <div>videoCard</div>;
 };
 
-export default videoCard;
+export default VideoCard;

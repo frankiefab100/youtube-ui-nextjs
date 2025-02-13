@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
+"use client";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
 import Sidebar from "@/components/global/Sidebar";
 import Navbar from "@/components/global/Navbar";
+import { usePathname } from "next/navigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,23 +15,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Youtube UI Clone",
-  description: "Clone of the Youtube User Interface",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const pathname = usePathname();
+  const showSidebar = pathname !== "/watch";
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <Sidebar />
+        {showSidebar && <Sidebar />}
         {children}
       </body>
     </html>
