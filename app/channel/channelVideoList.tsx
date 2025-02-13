@@ -24,8 +24,8 @@ const ChannelVideoList: React.FC = () => {
                   className="block w-full h-full cursor-pointer"
                   src={videoItem.thumbnail}
                   alt="video thumbnail"
-                  width={50}
-                  height={50}
+                  width={200}
+                  height={200}
                 />
                 <div className="absolute right-2 bottom-1 bg-backgroundPrimary text-colorPrimary text-xs p-1">
                   {videoItem.duration}
