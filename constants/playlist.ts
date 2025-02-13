@@ -1,4 +1,4 @@
-import { IPlaylist, IReactions } from '@/types';
+import { IComments, IPlaylist, IReactions } from '@/types';
 import image1 from '../assets/thumbnails/image1.png';
 import image2 from '../assets/thumbnails/image2.png';
 import image3 from '../assets/thumbnails/image3.png';
@@ -151,4 +151,24 @@ export const REACTIONS: IReactions[] = [
         id: 4,
         icon: PiListPlus,
         name: "Save",
-    },]
+    }
+]
+
+export const COMMENTS: IComments[] = [
+    {
+        id: 1,
+        name: "James Gouse",
+        img: "https://mighty.tools/mockmind-api/content/human/104.jpg",
+        time: "8 hours ago",
+        comment: "wow, world is full of different skills",
+        likeCount: 3,
+    },
+    {
+        id: 1,
+        name: "Alan Cooper",
+        img: "https://mighty.tools/mockmind-api/content/human/128.jpg",
+        time: "4 days ago",
+        comment: "Can you provide?",
+        likeCount: 8,
+    },
+]

@@ -32,3 +32,10 @@ export interface VideoProps extends IPlaylist {
 }
 
 export type IReactions = ISidebar
+
+export type IComments = Omit<ISidebar, 'icon'> & {
+    img: string;
+    time: string;
+    comment: string;
+    likeCount?: number;
+};

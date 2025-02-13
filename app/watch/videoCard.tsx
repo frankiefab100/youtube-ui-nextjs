@@ -20,7 +20,7 @@ const VideoCard = () => {
         <h2 className="text-colorPrimary text-base font-semibold leading-5 cursor-pointer">
           Blind Woodturner: Turning passion into fine art
         </h2>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center flex-wrap">
           <p className="text-colorSecondary text-sm whitespace-nowrap cursor-pointer my-2">
             <span>576,969 views</span>
             {" . "}
