@@ -6,7 +6,7 @@ const page = () => {
   return (
     <section
       id="channel"
-      className="bg-backgroundSecondary relative max-w-[84%] h-full left-[16%]"
+      className="bg-backgroundSecondary relative max-w-fit h-full"
     >
       <ChannelInfo />
       <ChannelVideo />

@@ -5,7 +5,7 @@ const ContentLayout: React.FC = () => {
   return (
     <main
       id="contentLayout"
-      className="bg-backgroundSecondary relative max-w-[84%] h-full left-[16%] top-[40px] px-4 py-8"
+      className="bg-backgroundSecondary relative h-full px-4 py-8 -z-10"
     >
       <Card />
     </main>

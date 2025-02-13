@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Sidebar from "@/components/global/Sidebar";
 import Navbar from "@/components/global/Navbar";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,14 +24,27 @@ export default function RootLayout({
   const pathname = usePathname();
   const showSidebar = pathname !== "/watch";
 
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen((prev) => !prev);
+  };
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
-        {showSidebar && <Sidebar />}
-        {children}
+        <Navbar onToggle={toggleSidebar} />
+        {showSidebar && <Sidebar isOpen={isSidebarOpen} />}
+
+        <main
+          className={`transition-all duration-300 ${
+            isSidebarOpen ? "ml-0 lg:ml-[16%]" : "ml-[15%] lg:ml-[4.8%]"
+          }`}
+        >
+          {children}
+        </main>
       </body>
     </html>
   );

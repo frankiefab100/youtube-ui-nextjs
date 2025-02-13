@@ -4,7 +4,7 @@ import { CgMenuGridR } from "react-icons/cg";
 import { BiBell, BiMenu, BiVideoPlus } from "react-icons/bi";
 import Searchbar from "../ui/searchInput";
 
-const Navbar: React.FC = () => {
+const Navbar: React.FC<{ onToggle: () => void }> = ({ onToggle }) => {
   return (
     <header className="sticky top-0 left-0 z-10">
       <nav
@@ -12,7 +12,10 @@ const Navbar: React.FC = () => {
         className="bg-backgroundPrimary h-14 w-full flex flex-row flex-nowrap justify-between items-center"
       >
         <div className="flex justify-around items-center">
-          <BiMenu className="text-colorPrimary cursor-pointer lg:w-8 lg:h-8 w-12 h-12 lg:mx-6 ml-4 mr-2" />
+          <BiMenu
+            onClick={onToggle}
+            className="text-colorPrimary cursor-pointer lg:w-8 lg:h-8 w-12 h-12 lg:mx-6 ml-4 mr-2"
+          />
           <Link href="/" className="flex items-center">
             <Image
               src="/images/Youtube-Logo.png"
@@ -26,16 +29,16 @@ const Navbar: React.FC = () => {
         <Searchbar />
 
         <div className="flex justify-between items-center lg:mx-6 mx-4 lg:w-40 w-20">
-          <BiVideoPlus className="text-colorPrimary cursor-pointer md:w-5 md:h-5 hidden" />
-          <CgMenuGridR className="text-colorPrimary cursor-pointer md:w-5 md:h-5 hidden" />
+          <BiVideoPlus className="text-colorPrimary cursor-pointer md:w-5 md:h-5 hidden md:inline" />
+          <CgMenuGridR className="text-colorPrimary cursor-pointer md:w-5 md:h-5 hidden md:inline" />
           <BiBell className="text-colorPrimary cursor-pointer w-5 h-5" />
 
           <Image
-            className="lg:w-8 h-5 w-5  rounded-full cursor-pointer"
+            className="lg:w-8 lg:h-8 w-5 h-5 rounded-full cursor-pointer"
             src="/images/profile-photo.webp"
             alt="user profile"
             width={10}
-            height={10}
+            height={8}
           />
         </div>
       </nav>
