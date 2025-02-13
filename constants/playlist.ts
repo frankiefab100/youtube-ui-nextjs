@@ -1,4 +1,4 @@
-import { IPlaylist } from '@/types';
+import { IPlaylist, IReactions } from '@/types';
 import image1 from '../assets/thumbnails/image1.png';
 import image2 from '../assets/thumbnails/image2.png';
 import image3 from '../assets/thumbnails/image3.png';
@@ -7,6 +7,8 @@ import image5 from '../assets/thumbnails/image5.png';
 import image6 from '../assets/thumbnails/image6.png';
 import image7 from '../assets/thumbnails/image7.png';
 import image8 from '../assets/thumbnails/image8.png';
+import { BiDislike, BiLike } from 'react-icons/bi';
+import { PiListPlus, PiShareFat } from 'react-icons/pi';
 
 export const PLAYLIST: IPlaylist[] = [
     {
@@ -127,3 +129,26 @@ export const PLAYLIST: IPlaylist[] = [
         duration: "23:45"
     },
 ]
+
+
+export const REACTIONS: IReactions[] = [
+    {
+        id: 1,
+        icon: BiLike,
+        name: "1.7K",
+    },
+    {
+        id: 2,
+        icon: BiDislike,
+        name: "632",
+    },
+    {
+        id: 3,
+        icon: PiShareFat,
+        name: "Share",
+    },
+    {
+        id: 4,
+        icon: PiListPlus,
+        name: "Save",
+    },]

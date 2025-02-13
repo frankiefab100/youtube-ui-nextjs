@@ -21,20 +21,18 @@ const Playlist = () => {
               </div>
             </div>
 
-            <div className="flex cursor-pointer">
-              <div className="ml-2">
-                <h2 className="text-colorPrimary text-base font-semibold leading-5 cursor-pointer">
-                  {video.title}
-                </h2>
-                <p className="text-colorSecondary text-sm whitespace-nowrap cursor-pointer my-2">
-                  {video.creatorName}
-                </p>
-                <p className="text-colorSecondary text-sm whitespace-nowrap cursor-pointer">
-                  <span>{video.viewCount}</span>
-                  {" . "}
-                  <span>{video.timeline}</span>
-                </p>
-              </div>
+            <div className="ml-2">
+              <h2 className="text-colorPrimary text-base font-semibold leading-5 cursor-pointer">
+                {video.title}
+              </h2>
+              <p className="text-colorSecondary text-sm whitespace-nowrap cursor-pointer lg:my-2 my-1">
+                {video.creatorName}
+              </p>
+              <p className="text-colorSecondary text-sm whitespace-nowrap cursor-pointer">
+                <span>{video.viewCount}</span>
+                {" . "}
+                <span>{video.timeline}</span>
+              </p>
             </div>
           </div>
         );

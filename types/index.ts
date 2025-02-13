@@ -30,3 +30,5 @@ export interface IPlaylist {
 export interface VideoProps extends IPlaylist {
     creatorImg: string;
 }
+
+export type IReactions = ISidebar
