@@ -56,7 +56,7 @@ const ChannelInfo: React.FC = () => {
           </button>
         </div>
 
-        <nav className="w-full overflow-x-auto">
+        <nav className="w-full scrollbar overflow-x-auto">
           <ul className="flex space-x-4">
             {TABS.map((tab, index) => (
               <li key={index}>
