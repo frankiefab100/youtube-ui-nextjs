@@ -6,7 +6,7 @@ const page = () => {
   return (
     <section
       id="channel"
-      className="bg-backgroundSecondary grid md:grid-cols-2 grid-cols-1 h-full px-44"
+      className="bg-backgroundSecondary grid md:grid-cols-2 grid-cols-1 gap-8 h-full px-40 py-8"
     >
       <div>
         <VideoCard />

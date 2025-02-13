@@ -7,7 +7,7 @@ const Playlist = () => {
     <div>
       {PLAYLIST.map((video) => {
         return (
-          <div key={video.id} className="flex flex-col">
+          <div key={video.id} className="flex items-center py-1">
             <div className="relative">
               <Image
                 className="block w-full h-full cursor-pointer"
@@ -16,17 +16,17 @@ const Playlist = () => {
                 width={200}
                 height={200}
               />
-              <div className="absolute right-2 bottom-1 bg-backgroundPrimary text-colorPrimary text-sm p-1">
+              <div className="absolute right-1 bottom-1 bg-backgroundPrimary text-colorPrimary text-xs p-1">
                 {video.duration}
               </div>
             </div>
 
-            <div className="flex flex-row flex-nowrap justify-start items-start w-full pt-3 cursor-pointer">
+            <div className="flex cursor-pointer">
               <div className="ml-2">
-                <h2 className="text-colorPrimary text-base font-semibold mb-1 leading-5 cursor-pointer">
+                <h2 className="text-colorPrimary text-base font-semibold leading-5 cursor-pointer">
                   {video.title}
                 </h2>
-                <p className="text-colorSecondary text-sm whitespace-nowrap cursor-pointer">
+                <p className="text-colorSecondary text-sm whitespace-nowrap cursor-pointer my-2">
                   {video.creatorName}
                 </p>
                 <p className="text-colorSecondary text-sm whitespace-nowrap cursor-pointer">
