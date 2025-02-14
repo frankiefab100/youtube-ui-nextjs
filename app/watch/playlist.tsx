@@ -1,10 +1,28 @@
 import { PLAYLIST } from "@/constants/playlist";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Playlist = () => {
   return (
     <div>
+      <div className="flex items-center md:space-x-3 space-x-2 w-full mb-3">
+        <Link
+          href="#"
+          role="button"
+          className="bg-colorPrimary text-black border-none px-3 py-1 rounded-full text-sm font-medium"
+        >
+          All
+        </Link>
+        <Link
+          href="#"
+          role="button"
+          className="bg-backgroundAccent text-colorPrimary border border-colorSecondary px-3 py-1 rounded-full text-sm font-medium"
+        >
+          From Marcus Levin
+        </Link>
+      </div>
+
       {PLAYLIST.map((video) => {
         return (
           <div key={video.id} className="flex items-center py-1">

@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
 import Sidebar from "@/components/global/Sidebar";
 import Navbar from "@/components/global/Navbar";
-import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const geistSans = Geist({
@@ -21,9 +20,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const pathname = usePathname();
-  const showSidebar = pathname !== "/watch";
-
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -36,7 +32,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar onToggle={toggleSidebar} />
-        {showSidebar && <Sidebar isOpen={isSidebarOpen} />}
+        <Sidebar isOpen={isSidebarOpen} />
 
         <main
           className={`transition-all duration-300 ${
