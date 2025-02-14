@@ -14,7 +14,7 @@ const Sidebar: React.FC<{ isOpen: boolean }> = ({ isOpen }) => {
   return (
     <aside className="fixed h-full z-10">
       {isOpen ? (
-        <div className="bg-backgroundPrimary flex flex-col  lg:max-w-[16%] max-w-[50vw] h-full fixed overflow-hidden whitespace-nowrap scrollbar hover:overflow-y-scroll z-10">
+        <div className="bg-backgroundPrimary flex flex-col lg:max-w-[16%] md:max-w-[30%] max-w-[50vw] h-full fixed overflow-hidden whitespace-nowrap scrollbar hover:overflow-y-scroll z-10">
           <div className="py-3 border-b border-backgroundAccent">
             {SIDEBAR_NAV.map((listItem) => {
               return (
@@ -95,7 +95,7 @@ const Sidebar: React.FC<{ isOpen: boolean }> = ({ isOpen }) => {
             })}
           </div>
 
-          <footer className="flex flex-col  pb-12">
+          <footer className="flex flex-col pb-12">
             <div className="flex flex-row flex-wrap items-center p-2">
               {FOOTER_LINKS.map((link, index) => {
                 return (
@@ -119,7 +119,7 @@ const Sidebar: React.FC<{ isOpen: boolean }> = ({ isOpen }) => {
           </footer>
         </div>
       ) : (
-        <div className="bg-backgroundPrimary flex flex-col lg:max-w-fit md:max-w-16 max-w-16 h-full fixed overflow-hidden whitespace-nowrap z-10">
+        <div className="bg-backgroundPrimary flex flex-col lg:max-w-fit md:max-w-[10%] max-w-16 h-full fixed overflow-hidden whitespace-nowrap z-10">
           <div className="py-3 border-b border-backgroundAccent">
             {slicedSidebarNav.map((listItem) => {
               return (

@@ -40,7 +40,9 @@ export default function RootLayout({
 
         <main
           className={`transition-all duration-300 ${
-            isSidebarOpen ? "ml-0 lg:ml-[16%]" : "ml-[15%] lg:ml-[4.8%]"
+            isSidebarOpen
+              ? "ml-0 md:ml-40 lg:ml-[16%]"
+              : "ml-[15%] md:ml-[5.8%] lg:ml-[4.8%]"
           }`}
         >
           {children}
