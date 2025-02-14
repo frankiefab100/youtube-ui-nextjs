@@ -1,5 +1,6 @@
+import { ITags } from "@/types";
 
-export const CATEGORY_TAGS = [
+export const CATEGORY_TAGS: ITags[] = [
     { id: 1, label: "All" },
     { id: 2, label: "Item 1" },
     { id: 3, label: "Item 2" },
@@ -25,4 +26,9 @@ export const CATEGORY_TAGS = [
     { id: 212, label: "Item 22" },
     { id: 24, label: "Item 23" },
     { id: 25, label: "Item 24" },
+    { id: 26, label: "Item 25" },
+    { id: 27, label: "Item 26" },
+    { id: 28, label: "Item 27" },
+    { id: 29, label: "Item 28" },
+    { id: 30, label: "Item 29" },
 ];

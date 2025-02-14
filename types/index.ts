@@ -39,3 +39,6 @@ export type IComments = Omit<ISidebar, 'icon'> & {
     comment: string;
     likeCount?: number;
 };
+
+
+export interface ITags { id: number; label: string }
