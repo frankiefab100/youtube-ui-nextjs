@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YouTube UI Clone
 
-## Getting Started
+This project is a clone of the YouTube interface, built using Next.js, TypeScript, and styled with Tailwind CSS.
 
-First, run the development server:
+## Overview
+
+This project involves translating a UI/UX design template from the provided [Figma link](https://www.figma.com/community/file/1039193156346432955/youtube-ui-clone-design) into a frontend application using Next.js. The goal is to replicate the functionality and user experience of the official YouTube website.
+
+**Live URL:** <https://youtube-ui-nextjs.vercel.app/>
+
+## Features
+
+The application allows users to navigate the YouTube Channel from the sidebar, see related video content, and view playlists. The interface is responsive on mobile, tablet, and desktop.
+
+On the sidebar, click on `Marcus Levin` in **SUBSCRIPTIONS** to navigate to the channel page, then click on the current video to go to the video page.
+
+<div align="left">
+<h3>Home</h3>
+<img src="./assets/design/Home.jpg" alt="home page" />
+
+<h3>Channel</h3>
+<img src="./assets/design/Channel.jpg" alt="channel page" />
+
+<h3>Video</h3>
+<img src="./assets/design/Video.jpg" alt="video page" />
+</div>
+
+
+## Built With
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/frankiefab100/youtube-ui-nextjs.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd youtube-ui-nextjs
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open <http://localhost:3000> with your browser to see the result.
